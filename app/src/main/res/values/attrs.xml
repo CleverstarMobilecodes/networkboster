@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="GaugeView">
+        <attr name="speed" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="StrengthView">
+        <attr name="value" format="float" />
+    </declare-styleable>
+
+    <!--<declare-styleable name="GraphView">-->
+        <!--<attr name="strokeWidth" value="1"/>-->
+    <!--</declare-styleable>-->
+</resources>

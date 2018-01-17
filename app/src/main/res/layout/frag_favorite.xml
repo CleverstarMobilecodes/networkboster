@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/listView" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/dialog_outer"
+            android:id="@+id/layoutConfirmDelete">
+
+            <RelativeLayout
+                android:layout_width="250dp"
+                android:layout_height="180dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/dlg_delete_confirm">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Want to DELETE?"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="23dp"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:id="@+id/txtDeleteConfirmMessage" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name of Point"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:id="@+id/txtNameOfPoint"
+                    android:layout_below="@+id/txtDeleteConfirmMessage" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Yes"
+                    android:id="@+id/btnDeleteConfirmYes"
+                    android:background="@drawable/dlg_yes_button"
+                    android:textColor="@color/dark_text"
+                    android:textSize="20dp"
+                    android:typeface="normal"
+                    android:textAlignment="center"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="15dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="25dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="No"
+                    android:id="@+id/btnDeleteConfirmNo"
+                    android:background="@drawable/dlg_no_button"
+                    android:textColor="@color/dark_text"
+                    android:textSize="20sp"
+                    android:typeface="normal"
+                    android:textAlignment="center"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="false"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginBottom="15dp" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <FrameLayout
+            android:id="@+id/dialogContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:foreground="?android:windowContentOverlay"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

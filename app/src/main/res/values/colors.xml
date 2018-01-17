@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#124d6e</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="red">#f00</color>
+    <color name="green">#0f0</color>
+    <color name="light_green">#0d0</color>
+    <color name="settings_cold_color">#187096</color>
+    <color name="settings_hot_color">@color/white</color>
+    <color name="dark_green">#0d0</color>
+    <color name="dark_red">#d00</color>
+    <color name="light_text">@color/white</color>
+    <color name="dark_text">#479bb0</color>
+    <color name="dialog_outer">#88000000</color>
+    <color name="dlg_label">#124d6e</color>
+    <color name="dlg_desc">#888888</color>
+    <color name="text_normal">#DDD</color>
+    <color name="text_selected">@color/dark_green</color>
+    <color name="tab_bg">#2c7da0</color>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:contextClickable="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/layoutAvailableItem"
+        android:background="@drawable/settings_content_item"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <com.rwork.speedbooster.StrengthView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/imgStrength"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/strength_cold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name of Point"
+            android:id="@+id/txtNameOfPoint"
+            android:textColor="@color/text_normal"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/imgStrength"
+            android:layout_toLeftOf="@+id/imgStatus" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/imgStatus"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentStart="false"
+            android:layout_toLeftOf="@+id/imgCursor"
+            android:layout_marginRight="20dp" />
+
+        <ImageView
+            android:id="@+id/imgCursor"
+            android:layout_width="12dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentTop="false"
+            android:paddingRight="10dp"
+            android:background="@drawable/mini_arrow"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" />
+
+    </RelativeLayout>
+
+</LinearLayout>

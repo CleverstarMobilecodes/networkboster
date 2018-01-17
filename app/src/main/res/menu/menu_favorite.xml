@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item android:id="@+id/action_available" android:title="@string/available" app:showAsAction="always"/>
+    <item android:id="@+id/action_history" android:title="@string/history" app:showAsAction="always"/>
+    <!--<item android:id="@+id/action_favorite" android:title="@string/favorite0" app:showAsAction="always"/>-->
+</menu>
